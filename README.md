@@ -31,9 +31,9 @@ Build scenarios in ```./smarts/smarts_scenarios```
 
 4. Decision-Transformer:  
 
-Offline data collections: ```./smarts/DT/collect_data.py ```
+  Offline data collections: ```./smarts/DT/collect_data.py ```
 
-Training & Eval: ```./smarts/DT/gym/experiment.py```
+  Training & Eval: ```./smarts/DT/gym/experiment.py```
 
 5. DrQ: ```./smarts/Drq/train.py```
 
