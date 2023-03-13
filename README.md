@@ -1,5 +1,4 @@
 # Scene-Rep-Transformer
-2
 
 This repo is the implementation of the following paper:
 
