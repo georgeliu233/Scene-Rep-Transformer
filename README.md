@@ -23,17 +23,17 @@ Build scenarios in ```./smarts/smarts_scenarios```
 
 ### Experiment Pipelines
 
-1. rule-based driver model: ```./smarts/test_rule_based.py```
+1. Rule-based driver model: ```./smarts/test_rule_based.py```
 
-2. on-policy baselines:  ```./smarts/ppo_baseline.py```
+2. On-policy baselines:  ```./smarts/ppo_baseline.py```
 
-3. our methods:  ```./smarts/train_sac_map.py```
+3. Our methods:  ```./smarts/train_sac_map.py```
 
 4. Decision-Transformer:  
 
-  Offline data collections: ```./smarts/DT/collect_data.py ```
+-- Offline data collections: ```./smarts/DT/collect_data.py ```
 
-  Training & Eval: ```./smarts/DT/gym/experiment.py```
+-- Training & Eval: ```./smarts/DT/gym/experiment.py```
 
 5. DrQ: ```./smarts/Drq/train.py```
 
