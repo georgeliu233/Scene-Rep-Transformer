@@ -11,7 +11,7 @@ This repo is the implementation of the following paper:
 - Model Framework Overview:
 ![](pics/main1.png)
 
-# Simulations
+## Simulations
 
 Download [SMARTS](https://github.com/huawei-noah/SMARTS) simulator according to its repository
 
