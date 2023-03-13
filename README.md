@@ -13,6 +13,11 @@ This repo is the implementation of the following paper:
 
 ## Simulations
 
-Download [SMARTS](https://github.com/huawei-noah/SMARTS) simulator according to its repository
+Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) simulator according to its repository
 
 Build scenarios in ```./smarts/smarts_scenarios```
+
+
+## Acknowledgements
+Much of the RL implementations are based on [tf2rl](https://github.com/keiohta/tf2rl)
+Official release for the strong baselines: [DrQ](https://github.com/denisyarats/drq); [Decision-Transformer](https://github.com/kzl/decision-transformer)
