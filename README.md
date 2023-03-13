@@ -8,4 +8,4 @@ This repo is the implementation of the following paper:
 <br> **[[arXiv]](https://arxiv.org/abs/2208.12263)**&nbsp;
 
 - Model Framework Overview:
-![](pics/main.png)
+![](pics/main1.png)
