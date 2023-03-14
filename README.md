@@ -7,7 +7,7 @@ This repo is the implementation of the following paper:
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
 <br> **[[arXiv]](https://arxiv.org/abs/2208.12263)**&nbsp;
 
-- CARLA Test will be released soon;
+- CARLA Test will be released soon (undergoing internal scrutiny);
 - Model Framework Overview:
 ![](pics/main1.png)
 
