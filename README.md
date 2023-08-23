@@ -5,37 +5,31 @@ This repo is the implementation of the following paper:
 **Augmenting Reinforcement Learning with Transformer-based Scene Representation Learning for Decision-making of Autonomous Driving**
 <br> [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl=en), [Zhiyu Huang](https://mczhi.github.io/), [Xiaoyu Mo](https://scholar.google.com/citations?user=JUYVmAQAAAAJ&hl=zh-CN), [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
-<br> **[[arXiv]](https://arxiv.org/abs/2208.12263)**&nbsp;
+<br> **[[arXiv]](https://arxiv.org/abs/2208.12263)**&nbsp;**[[Project Website]](https://georgeliu233.github.io/Scene-Rep-Transformer/)**
 
-- CARLA Test will be released soon (undergoing internal scrutiny);
+- CARLA Environment is now available;
 - Model Framework Overview:
 ![](pics/main1.png)
 
 ## Get started
 
-Download dependencies from ```tf2rl``` 
+### 1. Download
 
-### Simulations
+* Clone this repository and navigate to the directory:
+```https://github.com/georgeliu233/Scene-Rep-Transformer.git && cd Scene-Rep-Transformer``` 
+
+* Download dependent packages:
+
+```pip install -r requirements.txt``` 
+
+### Build Scenarios
 
 Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) simulator according to its repository
 
 Build scenarios in ```./smarts/smarts_scenarios```
 
-### Experiment Pipelines
+### Testing Pipelines
 
-1. Rule-based driver model: ```./smarts/test_rule_based.py```
-
-2. On-policy baselines:  ```./smarts/ppo_baseline.py```
-
-3. Our methods:  ```./smarts/train_sac_map.py```
-
-4. Decision-Transformer:  
-
-- Offline data collections: ```./smarts/DT/collect_data.py ```
-
-- Training & Eval: ```./smarts/DT/gym/experiment.py```
-
-5. DrQ: ```./smarts/Drq/train.py```
 
 ## Acknowledgements
 
