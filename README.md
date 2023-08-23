@@ -11,6 +11,8 @@ Decision-making for urban autonomous driving is challenging due to the stochasti
 
 ## Results
 
+Here we present the testing results from different methods (2x speed). 
+
 ### CARLA Urban unsignalized left turn
 
 | Scene-Rep Transformer | Drq | PPO |
