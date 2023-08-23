@@ -9,6 +9,8 @@ Decision-making for urban autonomous driving is challenging due to the stochasti
 ## Method Overview 
 <img src="./pics/main1.png" style="width:90%;">
 
+An overview of our RL decision-making framework with Scene-Rep Transformer. Given perception-processed vectorized scene inputs, the multi-stage Transformer (MST) encodes the multi-modal information with interaction awareness. During training, a sequential latent Transformer (SLT) performs representation learning using consecutive latent-action pairs to ensure future consistency. The soft-actor-critic (SAC) module takes the latent feature vector to make driving decisions for downstream planning and control tasks. 
+
 ## Results
 
 Here we present the testing results from different methods (2x speed). 
