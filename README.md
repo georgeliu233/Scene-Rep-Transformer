@@ -14,8 +14,8 @@ Decision-making for urban autonomous driving is challenging due to the stochasti
 ### CARLA Urban unsignalized left turn
 
 | Scene-Rep Transformer | Drq | PPO |
-|:-----------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| <img src="./pics/sel0_out.gif" > | <img src="./pics/aggressive+(1)_out.gif" > | <img src="./pics/ppo_out.gif" > |
+|:-----------------:|:-----------------:|:-----------------:|
+| <img src="./pics/sel0_out.gif" style="width:90%;"> | <img src="./pics/aggressive+(1)_out.gif" style="width:90%;"> | <img src="./pics/ppo_out.gif" style="width:90%;"> |
 
 
 ### SMARTS Unprotected left turn 
