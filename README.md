@@ -16,17 +16,27 @@ This repo is the implementation of the following paper:
 ### 1. Download
 
 * Clone this repository and navigate to the directory:
-```https://github.com/georgeliu233/Scene-Rep-Transformer.git && cd Scene-Rep-Transformer``` 
 
-* Download dependent packages:
+```
+https://github.com/georgeliu233/Scene-Rep-Transformer.git && cd Scene-Rep-Transformer
+``` 
 
-```pip install -r requirements.txt``` 
+* Download required packages:
 
-### Build Scenarios
+```
+pip install -r requirements.txt
+``` 
 
-Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) simulator according to its repository
 
-Build scenarios in ```./smarts/smarts_scenarios```
+### 2. Build Scenarios
+
+* Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) according to its repository
+
+* Download official SMARTS scenarios:
+
+```
+wget https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/smarts_scenarios.tar.gz
+```
 
 ### Testing Pipelines
 
