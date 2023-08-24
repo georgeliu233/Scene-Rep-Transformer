@@ -55,7 +55,7 @@ sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
 wget https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/smarts_scenarios.tar.gz
 ```
 
-### Testing Pipelines
+### 3. Testing Pipelines
 
 * We offered the [checkpoints](https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/data.tar.gz) with ```train_logs``` for all scenarios:
 
@@ -77,7 +77,7 @@ python3 test.py \
         --algo=scenerep # proposed methods
 ```
 
-### Testing Results:
+### 4. Testing Results:
 
 More testing results in [[Project Website]](https://georgeliu233.github.io/Scene-Rep-Transformer/)
 
