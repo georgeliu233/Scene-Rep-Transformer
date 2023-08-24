@@ -26,13 +26,13 @@ Here we present the testing results from different methods (2x speed).
 
 | Scene-Rep Transformer | DrQ | PPO |
 |:-----------------:|:-----------------:|:-----------------:|
-| <img src="./pics/scenelt.gif" style="width:98%;"> | <img src="./pics/drqlt.gif" style="width:98%;"> | <img src="./pics/ppolt.gif" style="width:98%;"> |
+| <img src="./pics/scenelt.gif" style="width:90%;"> | <img src="./pics/drqlt.gif" style="width:85%;"> | <img src="./pics/ppolt.gif" style="width:90%;"> |
 
 ### SMARTS Double merging
 
 | Scene-Rep Transformer | DrQ | PPO |
 |:-----------------:|:-----------------:|:-----------------:|
-| <img src="./pics/scenecross.gif" style="width:98%;"> | <img src="./pics/drqcross.gif" style="width:98%;"> | <img src="./pics/ppocross.gif" style="width:98%;"> |
+| <img src="./pics/scenecross.gif" style="width:90%;"> | <img src="./pics/drqcross.gif" style="width:90%;"> | <img src="./pics/ppocross.gif" style="width:90%;"> |
 
 
 ## Acknowledgements
