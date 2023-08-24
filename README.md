@@ -45,9 +45,7 @@ sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
 #### SMARTS
 * Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) according to its repository
 
-* **[NOTE]** The current scenarios are built upon SMARTS ```v0.4.18```, so you may build from [source](https://github.com/huawei-noah/SMARTS/releases/tag/v0.4.17)
-
-* Ensure the SMARTS is correctly build by running ```make sanity-test```
+* **[NOTE]** The current scenarios are built upon SMARTS ```v0.4.18```, so you may build from [source](https://github.com/huawei-noah/SMARTS/releases/tag/v0.4.17). Ensure the SMARTS is successfully built.
 
 * Download SMARTS Scenarios:
 
