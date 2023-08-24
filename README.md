@@ -17,15 +17,22 @@ Here we present the testing results from different methods (2x speed).
 
 ### CARLA Urban unsignalized left turn
 
-| Scene-Rep Transformer | Drq | PPO |
+| Scene-Rep Transformer | DrQ | PPO |
 |:-----------------:|:-----------------:|:-----------------:|
-| <img src="./pics/sel0_out.gif" style="width:90%;"> | <img src="./pics/aggressive+(1)_out.gif" style="width:90%;"> | <img src="./pics/ppo_out.gif" style="width:90%;"> |
+| <img src="./pics/sel0_out.gif" style="width:98%;"> | <img src="./pics/aggressive+(1)_out.gif" style="width:98%;"> | <img src="./pics/ppo_out.gif" style="width:98%;"> |
 
 
 ### SMARTS Unprotected left turn 
 
+| Scene-Rep Transformer | DrQ | PPO |
+|:-----------------:|:-----------------:|:-----------------:|
+| <img src="./pics/scenelt_out.gif" style="width:98%;"> | <img src="./pics/drqlt_out.gif" style="width:98%;"> | <img src="./pics/ppolt_out.gif" style="width:98%;"> |
+
 ### SMARTS Double merging
 
+| Scene-Rep Transformer | DrQ | PPO |
+|:-----------------:|:-----------------:|:-----------------:|
+| <img src="./pics/scenecross_out.gif" style="width:98%;"> | <img src="./pics/drqcross_out.gif" style="width:98%;"> | <img src="./pics/ppocross_out.gif" style="width:98%;"> |
 
 
 ## Acknowledgements
