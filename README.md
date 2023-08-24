@@ -27,18 +27,55 @@ https://github.com/georgeliu233/Scene-Rep-Transformer.git && cd Scene-Rep-Transf
 pip install -r requirements.txt
 ``` 
 
-
 ### 2. Build Scenarios
+We keep an indipendent code strcutures for CARLA and SMARTS, so that you can also choose either of one to install
+#### CARLA
 
+* Download all sources of CARLA ```v0.9.13``` via this [link](https://github.com/carla-simulator/carla/releases/tag/0.9.13/)
+
+* Navigate to ```envs/carla/carla_env.py ```, add folder path of the installed CARLA in system in line 18-19:
+
+```
+# append sys PATH for CARLA simulator 
+# assume xxx is your path to carla
+sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg')
+sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
+```
+
+#### SMARTS
 * Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) according to its repository
 
-* Download official SMARTS scenarios:
+* **[NOTE]** The current scenarios are built upon SMARTS ```v0.4.18```, so you may build from [source](https://github.com/huawei-noah/SMARTS/releases/tag/v0.4.17)
+
+* Ensure the SMARTS is correctly build by running ```make sanity-test```
+
+* Download SMARTS Scenarios:
 
 ```
 wget https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/smarts_scenarios.tar.gz
 ```
 
 ### Testing Pipelines
+
+* We offered the [checkpoints](https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/data.tar.gz) with ```train_logs``` for all scenarios:
+
+```
+wget https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/data.tar.gz
+```
+
+* unzip the ckpts and scenarios:
+
+```
+bash ./tools/download_build.sh
+```
+
+* run the scenario test by following example commands:
+```
+cd tools
+python3 test.py \
+        --scenario=left_turn # testing scenarios: [left_turn, cross, carla, ..., etc.]
+        --algo=scenerep # proposed methods
+```
 
 ### Testing Results:
 
@@ -47,6 +84,8 @@ More testing results in [[Project Website]](https://georgeliu233.github.io/Scene
 #### Testing results using different rewards
 
 We adopt two extra reward functions for comprehensive testing:
+
+[[R1]](https://arxiv.org/abs/1904.09503); [[R2]](https://arxiv.org/abs/2005.03863)
 
 
 |     Scenario    |     Left turn    |             |                |     Double Merge    |             |                |     CARLA    |             |                |

@@ -15,9 +15,8 @@ from collections import deque, defaultdict
 import matplotlib.pyplot as plt
 
 # append sys PATH for CARLA simulator 
-'/home/haochen/carla_simulator/CARLA_0.9.13'
-sys.path.append('/home/haochen/carla_simulator/CARLA_0.9.13/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg')
-sys.path.append('/home/haochen/carla_simulator/CARLA_0.9.13/PythonAPI/carla/')
+sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg')
+sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
 
 import carla
 from carla import ColorConverter as cc
