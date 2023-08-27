@@ -72,7 +72,7 @@ bash ./tools/download_build.sh
 cd tools
 python3 test.py \
         --scenario=left_turn # testing scenarios: [left_turn, cross, carla, ..., etc.]
-        --algo=scenerep # proposed methods
+        --algo=scene_rep # proposed methods
 ```
 
 ### 4. Testing Results:
