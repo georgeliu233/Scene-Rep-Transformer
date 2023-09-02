@@ -28,12 +28,12 @@ pip install -r requirements.txt
 ``` 
 
 ### 2. Build Scenarios
-We keep an indipendent code strcutures for CARLA and SMARTS, so that you can also choose either of one to install
+We keep the independent code strcutures for CARLA and SMARTS, so that you can also choose either of one to install and run:
 #### CARLA
 
 * Download all sources of CARLA ```v0.9.13``` via this [link](https://github.com/carla-simulator/carla/releases/tag/0.9.13/)
 
-* Navigate to ```envs/carla/carla_env.py ```, add folder path of the installed CARLA in system in line 18-19:
+* Navigate to ```envs/carla/carla_env.py ```, add folder path of the installed CARLA in system PATH in line 18-19:
 
 ```
 # append sys PATH for CARLA simulator 
@@ -45,7 +45,7 @@ sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
 #### SMARTS
 * Download & build [SMARTS](https://github.com/huawei-noah/SMARTS) according to its repository
 
-* **[NOTE]** The current scenarios are built upon SMARTS ```v0.4.18```, so you may build from [source](https://github.com/huawei-noah/SMARTS/releases/tag/v0.4.17). Ensure the SMARTS is successfully built.
+* **[NOTE]** The current scenarios are built upon SMARTS ```v0.4.18```, so you may build from [source](https://github.com/huawei-noah/SMARTS/releases/tag/v0.4.17). Ensure that SMARTS is successfully built.
 
 * Download SMARTS Scenarios:
 
