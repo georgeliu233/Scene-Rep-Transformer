@@ -25,7 +25,9 @@ https://github.com/georgeliu233/Scene-Rep-Transformer.git && cd Scene-Rep-Transf
 
 ```
 pip install -r requirements.txt
-``` 
+```
+**[NOTE]** The requirements lists all the required packages, so you may try to build the simulator first in the case of compatible issues on your devises.
+
 
 ### 2. Build Scenarios
 We keep the independent code strcutures for CARLA and SMARTS, so that you can also choose either of one to install and run:
