@@ -55,7 +55,10 @@ sys.path.append('xxx/CARLA_0.9.13/PythonAPI/carla/')
 wget https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/smarts_scenarios.tar.gz
 ```
 
-### 3. Testing Pipelines
+### 3. Training
+**[NOTE]** We have not collated an one-shot training script as testing in ```./tools``` yet. However, you may access the training pipelines in ```./envs/runners```, and full algorithm in ```./algos``` first for your own development.
+
+### 4. Testing Pipelines
 
 * We offered the [checkpoints](https://github.com/georgeliu233/Scene-Rep-Transformer/releases/download/v1.0.0/data.tar.gz) with ```train_logs``` for all scenarios:
 
@@ -77,7 +80,7 @@ python3 test.py \
         --algo=scene_rep # proposed methods
 ```
 
-### 4. Testing Results:
+### 5. Testing Results:
 
 More testing results in [[Project Website]](https://georgeliu233.github.io/Scene-Rep-Transformer/)
 
